@@ -1,4 +1,6 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
+<html xmlns:form="http://www.w3.org/1999/xhtml">
 <html>
 
 <body>
@@ -9,15 +11,11 @@
 <!--<h3>Your name: ${param.employeeName}</h3>-->
 Your name: ${employee.name}
 <br>
-<br>
 Your surname: ${employee.surname}
-<br>
 <br>
 Your salary: ${employee.salary}
 <br>
-<br>
 Your department: ${employee.department}
-<br>
 <br>
 Your Car: ${employee.carBrand}
 <br>
@@ -29,5 +27,7 @@ Language(s):
 </ul>
 Phone Number: ${employee.phoneNumber}
 </body>
+<br>
+Email: ${employee.email}
 
 </html>
