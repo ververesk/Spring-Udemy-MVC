@@ -22,7 +22,7 @@ Your Car: ${employee.carBrand}
 Language(s):
 <ul>
     <c:forEach var="lang" items="${employee.languages}">
-        <li $(lang) </li>
+        <li <c:out value="${lang}"/> </li>
                </c:forEach>
 </ul>
 Phone Number: ${employee.phoneNumber}
